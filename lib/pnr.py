@@ -103,4 +103,5 @@ def generate_pnr(birth_year, gender, ort):
 
 
 print generate_pnr(1997, "male", "Stockholm")
+valid_pnr()
 
