@@ -58,6 +58,13 @@ def valid_pnr(person_nummer):
 
 
 def generate_pnr(birth_year, gender, ort):
+    """
+    Den genererar ett trovärdigt personnummer utifrån insatt data.
+    :param birth_year: Önskat födelseår.
+    :param gender: Önskat kön.
+    :param ort: Önskat födelse ort.
+    :return: Trovärdigt person nummer.
+    """
     birth_year = str(birth_year)
     ort = ort.capitalize()
     if len(birth_year) == 4:
